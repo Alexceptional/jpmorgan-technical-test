@@ -38,6 +38,18 @@ My source data is loaded from a CSV file, containing ten rows of non-specific, f
 ### Project Structure
 The source code for the project is in the 'report.py' file. I chose to add all code (apart from the tests) to a single source file due to the simplicity of the project. The sample data file is located at data/source_data.csv. 
 
+### Code Structure
+All classes, methods and functions are described using docstrings.
+
+The code is executed from the main function, near the bottom of the module. Code execution follows the following routine:
+1. CSV file is opened
+2. File data is parsed into a list of dictionaries
+3. List of instruction objects initialised using file data list
+4. Report object initialised by passing instruction list
+5. Report methods called to produce report output
+
+The module can be executed either using an IDE or by running `python report.py` in the top-level directory.
+
 ### Tests
 The Python unit test files are located in the tests directory: file_tests.py for the file import test and report_tests.py for the 'Instruction' class tests. I chose not to build unit tests for the 'Report' class due to the nature of its functionality.
 
