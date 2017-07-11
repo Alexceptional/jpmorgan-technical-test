@@ -263,8 +263,7 @@ class Report:
 #   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-if __name__ == '__main__':
-
+def main():
     # Import sample data from file
     with open('data/source_data.csv', 'r') as source_file:
         raw_data = import_data(source_file)
@@ -287,3 +286,9 @@ if __name__ == '__main__':
     print('\n== ENTITY RANKING =====================\n')
 
     report.print_entity_ranks()
+
+    return 0
+
+
+if __name__ == '__main__':
+    main()
