@@ -1,6 +1,6 @@
 # JP Morgan - Technical Test
 ### Daily Trade Reporting Engine
---
+---
 
 ## Overview
 This is a coding assignment as part of the JP Morgan application process. The objective of this task is to produce a trade report, with specified output, based on source data containing trade instructions.
@@ -9,6 +9,7 @@ This is a coding assignment as part of the JP Morgan application process. The ob
 Some sample data was provided, as below:
 
 Entity|Buy/Sell|AgreedFx|Currency|InstructionDate|SettlementDate|Units|Price per unit
+------|--------|--------|--------|---------------|--------------|-----|--------------
 foo|B|0.50SGP|01 Jan 2016|02 Jan 2016|200|100.25
 
 ### Instruction Rules
