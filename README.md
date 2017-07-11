@@ -11,7 +11,7 @@ This is a coding assignment as part of the JP Morgan application process. The ob
 Some sample data was provided, as below:
 
 Entity|Buy/Sell|AgreedFx|Currency|InstructionDate|SettlementDate|Units|Price per unit|
-------|--------|--------|--------|---------------|--------------|-----|--------------||
+------|--------|--------|--------|---------------|--------------|-----|--------------|
 foo|B|0.50|SGP|01 Jan 2016|02 Jan 2016|200|100.25|
 bar|S|0.22|AED|05 Jan 2016|07 Jan 2016|450|150.5|
 
