@@ -1,8 +1,8 @@
 # JP Morgan - Technical Test
 ### Daily Trade Reporting Engine
----
+
 Written in Python (v3.4.3) using PyCharm v5.0.5.
----
+
 
 ## Assignment Overview
 This is a coding assignment as part of the JP Morgan application process. The objective of this task is to produce a trade report, with specified output, based on source data containing trade instructions.
@@ -42,4 +42,4 @@ The source code for the project is located in the 'report.py' file. I chose to a
 The Python unit tests are located in the tests directory and are in tow files: file_tests.py for the file import test and report_tests.py for the 'Instruction' class tests. I chose not to build unit tests for the 'Report' class due to the nature of its functionality.
 
 ## Dependencies
-No non-standard dependencies (ses datetime, tempfile, csv and unittest modules.)
+No non-standard dependencies (uses datetime, tempfile, csv and unittest modules.)
