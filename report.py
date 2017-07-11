@@ -62,6 +62,8 @@ class Instruction:
         'AED', 'SAR',
     )
 
+    DT_FORMAT = '%d-%b-%y'  # date format
+
     def __init__(self, input_data):
 
         """
@@ -77,8 +79,8 @@ class Instruction:
             self.buy_sell = input_data['buy_sell']
             self.agreed_fx = float(input_data['agreed_fx'])
             self.currency = input_data['currency']
-            self.instr_date = datetime.datetime.strptime(input_data['instr_date'], '%d-%b-%y')
-            self.settle_date = datetime.datetime.strptime(input_data['settle_date'], '%d-%b-%y')
+            self.instr_date = datetime.datetime.strptime(input_data['instr_date'], self.DT_FORMAT)
+            self.settle_date = datetime.datetime.strptime(input_data['settle_date'], self.DT_FORMAT)
             self.units = int(input_data['units'])
             self.ppu = float(input_data['ppu'])
 
